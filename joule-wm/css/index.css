@@ -1,0 +1,146 @@
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 16px;
+}
+.wrapper, .footer{
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: #fff;
+}
+.wrapper{
+    margin-bottom: 2.5rem;
+}
+header{
+    color: #fff;
+    background: rgba(0,0,0,.7);
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+header img{
+    vertical-align: middle;
+}
+.hd-adderss{
+    float: left;
+}
+.hd-profile{
+    float: right;
+    border-left: 1px solid gray;
+    width: 200px;
+    text-align: center;
+}
+.lbt img{
+    width: 100%;
+    heigth: 100%;
+    vertical-align: middle;
+}
+.commodity{
+
+    padding: .08rem;
+    box-sizing: border-box;
+}
+.hot-commodity{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.hot-left,.hot-right{
+    text-align: center;
+    padding: .08rem 0;
+    font: .16rem "微软雅黑";
+}
+.hot-left{
+    flex-grow: 1;
+    background: #ffe013;
+}
+.hot-right{
+    flex-grow: 2;
+    color: #ffe013;
+}
+.ulList{
+    overflow: hidden;
+}
+.ulList li img{
+    width: 100%;
+}
+.ulList>li{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+.ulList>li:nth-child(odd){
+    padding-right: .04rem;
+}
+.ulList>li:nth-child(even){
+    padding-left: .04rem;
+}
+.decoration{
+    font: .16rem "微软雅黑";
+}
+.sell{
+    font: .14rem/2em "微软雅黑";
+    color: grey;
+}
+.money:before{
+    content: "￥";
+}
+.money{
+    font: .18rem "微软雅黑";
+    color: red;
+}
+.ps{
+    float: right;
+    font: .14rem "微软雅黑";
+    color: grey;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    background: #fff;
+
+}
+.round{
+    height: 80px;
+    width: 80px;
+    background: #fff;
+    border-radius: 40px;
+    position: relative;
+    top: -20px;
+}
+.menu{
+    height: 65px;
+    border-bottom: 1px solid darkgrey;
+    text-align: center;
+    font: bold .15rem/65px "微软雅黑";
+}
+.menu span:first-child{
+    float: left;
+    text-indent: 1em;
+}
+.menu img{
+    vertical-align: middle;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+}
+.total{
+    font: bold .16rem/60px "微软雅黑";
+}
+.total span:first-child{
+    padding-left: 1em;
+}
+.total span:last-child{
+    float: right;
+    margin-right: 1em;
+}
+

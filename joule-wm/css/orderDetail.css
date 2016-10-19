@@ -1,0 +1,170 @@
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 16px;
+    background: #f0f0f0;
+}
+.wrapper{
+    margin: .1rem .2rem 1rem;
+}
+.service{
+    background: #fff;
+    padding: .3rem 20%;
+    border-bottom: .01rem solid #f0f0f0;
+}
+.service img{
+    float: left;
+    width: .46rem;
+    margin-right: .1rem;
+}
+.complete{
+    font: .2rem "微软雅黑";
+    margin: .04rem 0;
+}
+.ulList{
+    background: #fff;
+    padding: .3rem 0;
+    margin-bottom: .5rem;
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    font-size: .14rem;
+    color: #888;
+    padding-bottom: .1rem;
+}
+.list1-fk{
+    position: relative;
+    left: -20px;
+}
+.list1-pj{
+    position: relative;
+    right: -20px;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.payment:after{
+    content:"";
+    height: .01rem;
+    width: 100%;
+    background: #f00;
+    position: relative;
+    top: -.09rem;
+}
+.payment li{
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    border: 1px solid red;
+    border-radius: 9px;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.payment span{
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: red;
+    border-radius: 6px;
+    position: absolute;
+    top: 0.02rem;
+    left: .02rem;
+}
+.detail{
+    background: #fff;
+    padding: .1rem .15rem 0;
+    margin-bottom: .02rem;
+}
+.detail-im{
+    height: .4rem;
+    width: 1.3rem;
+    background: #eb3c3c;
+    font: .15rem/.4rem "微软雅黑";
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -.2rem;
+}
+.detail-ct{
+    display: flex;
+    font: .17rem "微软雅黑";
+    padding-bottom: .2rem;
+    border-bottom: 1px dashed #000;
+}
+.detail-ct img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.menu{
+    flex-grow: 1;
+    text-align: right;
+}
+.count{
+    flex-grow: 10;
+    text-align: right;
+}
+.price{
+    flex-grow: 10;
+    text-align: right;
+}
+.price:after{
+    content: "￥";
+}
+.delivery-mn{
+    border-bottom: 1px dashed #000;
+}
+.delivery-mn,.cost-total{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    font: .17rem "微软雅黑";
+    padding: .1rem 0;
+}
+.address{
+    font: .17rem "微软雅黑";
+    background: #fff;
+    padding: .5rem .15rem .1rem;
+}
+footer{
+    background: #fff;
+    height: .46rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer img{
+    width: .46rem;
+    vertical-align: middle;
+    padding-left: .1rem;
+}
+footer span{
+    display: inline-block;
+    height: .46rem;
+    width: .46rem;
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: .23rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font: .17rem/.46rem "微软雅黑";
+    text-align: center;
+}
+button{
+    float: right;
+    height: .4rem;
+    width: 1.2rem;
+    background: #1e8c5a;
+    border: 0;
+    margin: .03rem .1rem;
+    font: .14rem "微软雅黑";
+    color: #fff;
+}
